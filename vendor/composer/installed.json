@@ -1,0 +1,51 @@
+{
+    "packages": [
+        {
+            "name": "beberlei/composer-monorepo-plugin",
+            "version": "v0.16.5",
+            "version_normalized": "0.16.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/composer-monorepo-plugin.git",
+                "reference": "889b4617196cf64597accccda504cee38dbdb1de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/composer-monorepo-plugin/zipball/889b4617196cf64597accccda504cee38dbdb1de",
+                "reference": "889b4617196cf64597accccda504cee38dbdb1de",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0.7",
+                "phake/phake": "^2.2|^3.0",
+                "php": "^5.5|^7.0|^8.0",
+                "phpunit/phpunit": "^5|^6|^7|^8|^9"
+            },
+            "time": "2020-11-16T14:53:05+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Monorepo\\Composer\\Plugin"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Monorepo\\": "src/main"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/beberlei/composer-monorepo-plugin/issues",
+                "source": "https://github.com/beberlei/composer-monorepo-plugin/tree/v0.16.5"
+            },
+            "install-path": "../beberlei/composer-monorepo-plugin"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
